@@ -33,7 +33,7 @@ echo "Downgrade Initiated."
 echo -e "\n"
 
 sudo apt-get clean
-cd /tmp; wget -O openvpn.deb https://kali.download/kali/pool/main/o/openvpn/openvpn_2.5.6-1_amd64.deb; sudo apt install ./openvpn.deb; rm openvpn.deb
+cd /tmp; wget -O openvpn.deb https://ftp.debian.org/debian/pool/main/o/openvpn/openvpn_2.5.1-3_amd64.deb; sudo apt install ./openvpn.deb; rm openvpn.deb
 
 
 echo -e "\n"
