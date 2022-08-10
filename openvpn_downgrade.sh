@@ -11,7 +11,7 @@ user=$(whoami)
 day=$(date +%A)
 echo -e "\n"
 
-echo -e "$greeting Back $user!\nToday is $day!.\nLets downgrade Openvpn$openvpn_version! ,\nTo version 2.5.6 !"
+echo -e "$greeting Back $user!\nToday is $day!.\nLets downgrade Openvpn$openvpn_version! ,\nTo version 2.5.1-3 !"
 echo -e "\n"
 echo "Initiating Openvpn Downgrade Script coded by $author!."
 echo -ne '>>>                       [20%]\r'
@@ -37,7 +37,7 @@ cd /tmp; wget -O openvpn.deb https://ftp.debian.org/debian/pool/main/o/openvpn/o
 
 
 echo -e "\n"
-echo "Openvpn has been downgraded to version 2.5.6, Enjoy;"
+echo "Openvpn has been downgraded to version 2.5.1-3, Enjoy;"
 echo -e "\n" 
 echo "Downgrade Complete!".
 
