@@ -1,7 +1,7 @@
 # This script was made for the purpose of being able to connect to the academy vpn.
 # so each time your system updates and the openvpn goes along with it, you can simply use this script
 
-# Coded by x69h4ck3r now x86h4ck3r
+# Coded by x86h4ck3r fka x69h4ck3r 
 
 ==================================================================================
 TO USE
